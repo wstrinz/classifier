@@ -1,6 +1,8 @@
+require 'rake'
+
 PKG_VERSION = "1.3.4"
 
-PKG_FILES = FileList[
+PKG_FILES = Rake::FileList[
     "lib/**/*", "bin/*", "test/**/*", "[A-Z]*", "Rakefile", "Gemfile", "html/**/*"
 ]
 
