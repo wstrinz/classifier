@@ -1,3 +1,9 @@
+PKG_VERSION = "1.3.4"
+
+PKG_FILES = FileList[
+    "lib/**/*", "bin/*", "test/**/*", "[A-Z]*", "Rakefile", "Gemfile", "html/**/*"
+]
+
 Gem::Specification.new do |s|
   #### Basic information.
 
